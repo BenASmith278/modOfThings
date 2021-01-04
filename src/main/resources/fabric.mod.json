@@ -10,20 +10,19 @@
   ],
   "contact": {
     "homepage": "",
-    "sources": ""
+    "sources": "https://github.com/BenSmith278/modOfThings"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/mot/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.epicgamertwo.modOfThings.modOfThings"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
